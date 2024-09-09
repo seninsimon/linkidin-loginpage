@@ -1,0 +1,171 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.header {
+    background-color: rgb(255, 255, 255);
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 170px;
+    font-size: 15px;
+    color: rgb(81, 81, 81);
+}
+
+.tools {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+}
+
+.logo img {
+    width: 102px;
+    height: 25.5px;
+}
+
+.logo:hover
+{
+    cursor: pointer;
+}
+
+.tool {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    height: 80px;
+
+}
+
+.tool:hover
+{
+    cursor: pointer;
+}
+
+.line {
+    height: 50px;
+    border-left: 1px solid rgb(227, 227, 227);
+    margin: 0;
+}
+
+
+.signin,
+.joinnow {
+    width: 112px;
+    height: 48px;
+    border-radius: 25px;
+    border: none;
+    font-size: 17px;
+}
+
+.signin {
+    color: rgb(10, 102, 194);
+    border: 1px solid rgb(10, 102, 194);
+    background-color: white;
+}
+
+.signin:hover
+{
+    background-color: rgb(189, 231, 245,0.5);
+    cursor: pointer;
+    color: black;
+}
+
+.joinnow {
+    background-color: rgb(10, 102, 194);
+    color: white;
+}
+
+.joinnow:hover
+{
+    background-color: rgb(28, 28, 172);
+    cursor: pointer;
+}
+
+
+.container {
+    display: flex;
+    margin-left: 177px;
+    margin-top: 50px;
+}
+
+.leftsection,
+.rightsection {
+    height: 443px;
+    width: 620px;
+
+}
+
+.leftsection
+{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.rightsection img {
+    height: 578px;
+    width: 723px;
+}
+
+.heading {
+    font-size: 48px;
+    color: grey;
+}
+
+.mail
+{
+    height: 40px;
+    width: 400px;
+    border-width: 0.5px;
+    border-radius: 25px;
+    background-color: white;
+    color: rgb(54, 54, 54);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 17px;
+}
+
+.mail img{
+    width: 17px;
+}
+
+.mail:hover
+{
+   cursor: pointer;
+   background-color: rgb(247, 247, 247);
+}
+
+.para
+{
+text-align: center;
+width: 400px;
+font-size: 12px;
+}
+
+.blue
+{
+    color: rgb(10, 102, 194);
+}
+
+.blue:hover
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.newto
+{
+    font: 16px;
+    margin-top: 20px;
+    padding-left: 102px;
+}
